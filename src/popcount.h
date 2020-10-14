@@ -2,6 +2,9 @@
  * Functions for calculating the Hamming weight for different input sizes and
  * utilizing a range of techniques, the relative efficiency of which depend on
  * the underlying hardware and input characteristics.
+ *
+ * Function families in this file:
+ * popcount: calculate the Hamming weight of a bit string
  */
 
 #ifndef BITLIB_POPCOUNT_H

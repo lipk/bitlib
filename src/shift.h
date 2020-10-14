@@ -1,7 +1,7 @@
 /**
- * Tools for shifting the positions of designated bits in various ways. This
- * file contains 8 families of functions:
+ * Tools for shifting the positions of designated bits in various ways.
  *
+ * Function families in this file:
  * scatter, scatter3: spread out a continuous sequence of bits
  * gather, gather3: collect a scattered set of bits into a continuous sequence
  * merge, merge3: interleave 2 or 3 of sequences respectively

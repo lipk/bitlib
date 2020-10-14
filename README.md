@@ -65,4 +65,11 @@ operations and aren't counted separately.
 * `scatter`, `scatter3` - spread out a continuous sequence of bits
 * `gather`, `gather3` - collect a scattered set of bits into a continuous sequence
 * `merge`, `merge3` - interleave 2 or 3 of sequences respectively
-* `separate`, `separate3` - deinterleave a sequence into 2 or 3 components 
+* `separate`, `separate3` - deinterleave a sequence into 2 or 3 components
+
+### morton.h
+
+* `morton` - calculate a 2D morton code (same as merge)
+* `morton3` - calculate a 3D morton code (same as merge3)
+* `invmorton` - invert a 2D morton code (same as separate)
+* `invmorton3` - invert a 3D morton code (same as separate3)  
