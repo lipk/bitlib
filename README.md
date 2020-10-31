@@ -69,7 +69,13 @@ operations and aren't counted separately.
 
 ### morton.h
 
-* `morton` - calculate a 2D morton code (same as merge)
-* `morton3` - calculate a 3D morton code (same as merge3)
-* `invmorton` - invert a 2D morton code (same as separate)
-* `invmorton3` - invert a 3D morton code (same as separate3)  
+* `morton` - calculate a 2D Morton code (same as merge)
+* `morton3` - calculate a 3D Morton code (same as merge3)
+* `invmorton` - invert a 2D Morton code (same as separate)
+* `invmorton3` - invert a 3D Morton code (same as separate3)
+* `mortonxm`, `morton3xm` - Morton code of left (x-1) neighbor
+* `mortonxp`, `morton3xp` - Morton code of right (x+1) neighbor
+* `mortonym`, `morton3ym` - Morton code of top (y-1) neighbor
+* `mortonyp`, `morton3yp` - Morton code of bottom (y+1) neighbor
+* `morton3zm` - Morton code of back (z-1) neighbor
+* `morton3zp` - Morton code of back (z+1) neighbor
