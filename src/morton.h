@@ -446,7 +446,7 @@ static inline uint64_t mortonxp3_64(uint64_t m)
 }
 
 /**
- * Calculate the Morton code of the right neighbor (x; y; z-1) of m.
+ * Calculate the Morton code of the back neighbor (x; y; z-1) of m.
  *
  * Complexity: 4 bit ops, 1 add/subs
  */
@@ -456,7 +456,7 @@ static inline uint8_t mortonzm3_8(uint8_t m)
 }
 
 /**
- * Calculate the Morton code of the right neighbor (x; y; z-1) of m.
+ * Calculate the Morton code of the back neighbor (x; y; z-1) of m.
  *
  * Complexity: 4 bit ops, 1 add/subs
  */
@@ -466,7 +466,7 @@ static inline uint16_t mortonzm3_16(uint16_t m)
 }
 
 /**
- * Calculate the Morton code of the right neighbor (x; y; z-1) of m.
+ * Calculate the Morton code of the back neighbor (x; y; z-1) of m.
  *
  * Complexity: 4 bit ops, 1 add/subs
  */
@@ -476,7 +476,7 @@ static inline uint32_t mortonzm3_32(uint32_t m)
 }
 
 /**
- * Calculate the Morton code of the right neighbor (x; y; z-1) of m.
+ * Calculate the Morton code of the back neighbor (x; y; z-1) of m.
  *
  * Complexity: 4 bit ops, 1 add/subs
  */
@@ -486,7 +486,7 @@ static inline uint64_t mortonzm3_64(uint64_t m)
 }
 
 /**
- * Calculate the Morton code of the right neighbor (x; y; z+1) of m.
+ * Calculate the Morton code of the front neighbor (x; y; z+1) of m.
  *
  * Complexity: 4 bit ops, 1 add/subs
  */
@@ -496,7 +496,7 @@ static inline uint8_t mortonzp3_8(uint8_t m)
 }
 
 /**
- * Calculate the Morton code of the right neighbor (x; y; z+1) of m.
+ * Calculate the Morton code of the front neighbor (x; y; z+1) of m.
  *
  * Complexity: 4 bit ops, 1 add/subs
  */
@@ -506,7 +506,7 @@ static inline uint16_t mortonzp3_16(uint16_t m)
 }
 
 /**
- * Calculate the Morton code of the right neighbor (x; y; z+1) of m.
+ * Calculate the Morton code of the front neighbor (x; y; z+1) of m.
  *
  * Complexity: 4 bit ops, 1 add/subs
  */
@@ -516,7 +516,7 @@ static inline uint32_t mortonzp3_32(uint32_t m)
 }
 
 /**
- * Calculate the Morton code of the right neighbor (x; y; z+1) of m.
+ * Calculate the Morton code of the front neighbor (x; y; z+1) of m.
  *
  * Complexity: 4 bit ops, 1 add/subs
  */

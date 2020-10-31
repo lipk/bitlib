@@ -9,7 +9,7 @@ integrated into your code with minimal effort.
 
 # Design
 
-## Principles of implementation 
+## Principles of implementation
 
 Bitlib is implemented as a header-only C library. All code conforms to the C99
 standard and is (hopefully) platform-independent. Interdependencies between
@@ -78,4 +78,4 @@ operations and aren't counted separately.
 * `mortonym`, `morton3ym` - Morton code of top (y-1) neighbor
 * `mortonyp`, `morton3yp` - Morton code of bottom (y+1) neighbor
 * `morton3zm` - Morton code of back (z-1) neighbor
-* `morton3zp` - Morton code of back (z+1) neighbor
+* `morton3zp` - Morton code of front (z+1) neighbor
